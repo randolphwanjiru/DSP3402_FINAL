@@ -9,9 +9,9 @@ https://www.kaggle.com/competitions/nlp-getting-started/overview
 ## Overview
 
 * This section could contain a short paragraph which include the following:
-  * **Definition of the tasks/challenge**  Categorized tweets into two classes which were those related to actual disasters and those that were not related 
-  * **Your approach** I used the textual data from the tweets and used different NLP techqniques. This was a classification task where us used different machine learning models to identify tweets more accurately 
-  * **Summary of the performance achieved** the bet performing model was the logistic regression model that scored  0.838764 while the Multinomial Naive Bayes model scored  0.806867
+  * **Definition of the tasks/challenge** I Categorized tweets into two classes which were those related to actual disasters and those that were not related 
+  * **Your approach** I then used the textual data from the tweets and used different NLP techqniques. This was a classification task where different machine learning models were used to identify the tweets more accurately 
+  * **Summary of the performance achieved** The best performing model was the logistic regression model that scored  0.838764 while the Multinomial Naive Bayes model scored  0.806867
 
 ## Summary of Workdone
 
@@ -20,7 +20,7 @@ Include only the sections that are relevant an appropriate.
 ### Data
 
 * Data:
-  * Type: For example
+  * Type: Textual Data
     * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
     * Input: CSV file of features, output: signal/background flag in 1st column.
   * Size: 1.43B
@@ -44,12 +44,12 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Training
 
-* Describe the training:
-  * How you trained: software and hardware.
-  * How did training take.
-  * Training curves (loss vs epoch for test/train).
-  * How did you decide to stop training.
-  * Any difficulties? How did you resolve them?
+                                  * Describe the training:
+                               * How you trained: software and hardware.
+                       * How did training take.
+                        * Training curves (loss vs epoch for test/train).
+                            * How did you decide to stop training.
+                                  * Any difficulties? How did you resolve them?
 
 ### Performance Comparison
 
