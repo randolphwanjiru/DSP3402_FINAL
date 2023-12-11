@@ -3,15 +3,15 @@
 
 # Natural Language Processing with Disaster Tweets
 
-* **One Sentence Summary** Ex: This challenge aims to predict whether tweets are about real disasters or not by levaraging NLP techniques.
+* **One Sentence Summary** Ex: This challenge aims to predict whether tweets are about real disasters or not by leveraging NLP techniques.
 https://www.kaggle.com/competitions/nlp-getting-started/overview 
 
 ## Overview
 
 * This section could contain a short paragraph which include the following:
-  * **Definition of the tasks/challenge**  Ex: The task, as defined by the Kaggle challenge is to use a time series of 12 features, sampled daily for 1 month, to predict the next day's price of a stock.
-  * **Your approach** Ex: The approach in this repository formulates the problem as regression task, using deep recurrent neural networks as the model with the full time series of features as input. We compared the performance of 3 different network architectures.
-  * **Summary of the performance achieved** Ex: Our best model was able to predict the next day stock price within 23%, 90% of the time. At the time of writing, the best performance on Kaggle of this metric is 18%.
+  * **Definition of the tasks/challenge**  Categorized tweets into two classes which were those related to actual disasters and those that were not related 
+  * **Your approach** I used the textual data from the tweets and used different NLP techqniques. This was a classification task where us used different machine learning models to identify tweets more accurately 
+  * **Summary of the performance achieved** the bet performing model was the logistic regression model that scored  0.838764 while the Multinomial Naive Bayes model scored  0.806867
 
 ## Summary of Workdone
 
@@ -23,7 +23,7 @@ Include only the sections that are relevant an appropriate.
   * Type: For example
     * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
     * Input: CSV file of features, output: signal/background flag in 1st column.
-  * Size: How much data?
+  * Size: 1.43B
   * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
 
 #### Preprocessing / Clean up
@@ -53,8 +53,8 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Performance Comparison
 
-* Clearly define the key performance metric(s).
-* Show/compare results in one table.
+* Clearly define the key performance metric(s). Multonmoal Naive Bayes F1 Score: 0.7463
+* Show/compare results in one table.            Logistic regression score: 0.7494
 * Show one (or few) visualization(s) of results, for example ROC curves.
 
 ### Conclusions
