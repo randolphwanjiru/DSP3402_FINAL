@@ -11,7 +11,7 @@ https://www.kaggle.com/competitions/nlp-getting-started/overview
 * This section could contain a short paragraph which include the following:
   * **Definition of the tasks/challenge** I Categorized tweets into two classes which were those related to actual disasters and those that were not related 
   * **Your approach** I then used the textual data from the tweets and used different NLP techqniques. This was a classification task where different machine learning models were used to identify the tweets more accurately 
-  * **Summary of the performance achieved** The best performing model was the logistic regression model that scored  0.838764 while the Multinomial Naive Bayes model scored  0.806867
+  * **Summary of the performance achieved** The best performing model was the logistic regression model that scored 0.7493837304847988 while the Multinomial Naive Bayes model scored  0.7463203463203464
 
 ## Summary of Workdone
 
