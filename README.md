@@ -2,16 +2,16 @@
 ![UTALOGO](https://github.com/randolphwanjiru/DSP3402/assets/107207718/7c99a2e5-fd3b-4572-9ec4-467c24b5030b)
 
 # Natural Language Processing with Disaster Tweets
-
-* **One Sentence Summary** Ex: This challenge aims to predict whether tweets are about real disasters or not by leveraging NLP techniques.
+This challenge aimed to predict whether certain tweets were bout real disasters or not by implementing NLP techniques.
 https://www.kaggle.com/competitions/nlp-getting-started/overview 
 
 ## Overview
 
-* This section could contain a short paragraph which include the following:
-  * **Definition of the tasks/challenge** I Categorized tweets into two classes which were those related to actual disasters and those that were not related 
-  * **Your approach** I then used the textual data from the tweets and used different NLP techqniques. This was a classification task where different machine learning models were used to identify the tweets more accurately 
-  * **Summary of the performance achieved** The best performing model was the logistic regression model that scored 0.7493837304847988 while the Multinomial Naive Bayes model scored  0.7463203463203464
+ I Categorized tweets into two classes which were those related to actual disasters and those that were not related 
+ I then used the textual data from the tweets and used different NLP techqniques. This was a classification task where 
+ different machine learning models were used to identify the tweets more accurately 
+ The best performing model was the logistic regression model that scored 0.7493834 while the Multinomial Naive Bayes model 
+ scored 0.746320. when submittled into Kaggle it scored %79.558
 
 ## Summary of Workdone
 
