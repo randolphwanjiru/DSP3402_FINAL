@@ -93,11 +93,16 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Software Setup
 Standard set up: 
-Skikit-learn,
-numpy,
-matplotlib,
-seaborn
-nltk (natural language processing tool kit),
+Skikit-learn  
+
+numpy  
+
+matplotlib  
+
+seaborn  
+
+nltk (natural language processing tool kit)  
+
 spaCy.
 ### Data
 
