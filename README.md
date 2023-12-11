@@ -92,10 +92,13 @@ Show a few visualization of the data and say a few words about what you see.
 * Note that all of these notebooks should contain enough text for someone to understand what is happening.
 
 ### Software Setup
-* List all of the required packages.
-* If not standard, provide or point to instruction for installing the packages.
-* Describe how to install your package.
-
+Standard set up: 
+Skikit-learn
+numpy
+matplotlib
+seaborn
+nltk (natural language processing tool kit)
+spaCy
 ### Data
 
 * Point to where they can download the data.
