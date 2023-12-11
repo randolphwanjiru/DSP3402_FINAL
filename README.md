@@ -93,7 +93,7 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Software Setup
 
-Skikit-learn  
+Scikit-learn  
 
 numpy  
 
@@ -103,7 +103,7 @@ seaborn
 
 nltk (natural language processing tool kit)  
 
-spaCy.
+spaCy
 ### Data
 
 * Point to where they can download the data.
