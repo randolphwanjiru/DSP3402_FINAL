@@ -58,8 +58,7 @@ Show a few visualization of the data and say a few words about what you see.
 * Show one (or few) visualization(s) of results, for example ROC curves.
 
 ### Conclusions
-
-* State any conclusions you can infer from your work. Example: LSTM work better than GRU.
+Logistic Regression slightly outperformed Multinomial Naive Bayes based on the F1 Score
 
 ### Future Work
 
