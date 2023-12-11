@@ -23,7 +23,7 @@ Include only the sections that are relevant an appropriate.
   * Type: Textual Data
     * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
     * Input: CSV file of features, output: signal/background flag in 1st column.
-  * Size: 1.43B
+  * Size: 1.43MB
   * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
 
 #### Preprocessing / Clean up
