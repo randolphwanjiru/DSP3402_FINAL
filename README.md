@@ -92,7 +92,7 @@ Show a few visualization of the data and say a few words about what you see.
 * Note that all of these notebooks should contain enough text for someone to understand what is happening.
 
 ### Software Setup
-Standard set up: 
+
 Skikit-learn  
 
 numpy  
