@@ -167,9 +167,8 @@ Examine Submission File:
 Verify the file contains the predictions made by the model on the test data.
 ## Citations
 
-* Provide any references.
 
-
+https://scikit-learn.org/stable/user_guide.html
 
 
 
