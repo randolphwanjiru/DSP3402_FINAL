@@ -109,8 +109,7 @@ Evaluate the model's performance using metrics like F1 Score, Accuracy, Precisio
 
 ### Data
 
-* Point to where they can download the data.
-* Lead them through preprocessing steps, if necessary.
+The dataset for the NLP with diaster tweets for the Kaggle competition can be found here https://www.kaggle.com/competitions/nlp-getting-started/data. 
 
 ### Training
 
@@ -134,7 +133,9 @@ To conduct a performance evaluation for the trained models, adhere to these step
 
 Prepare Environment:  
 
-* Ensure Python is installed, along with essential libraries like pandas, scikit-learn, and nltk.  
+* Ensure Python is installed, along with essential libraries like pandas, scikit-learn, and nltk.
+
+  
 Execute Code:  
 
 * Run the provided Python script in an appropriate environment.
