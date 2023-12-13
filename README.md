@@ -2,7 +2,7 @@
 ![UTALOGO](https://github.com/randolphwanjiru/DSP3402/assets/107207718/7c99a2e5-fd3b-4572-9ec4-467c24b5030b)
 
 # Natural Language Processing with Disaster Tweets
-This repository holds an attempt to apply NLP techniques to tweets to predict which tweets were about real disasters. The data can be found at the NLP with disaster tweets challenge 
+This repository  attempts to apply NLP techniques to tweets to predict which tweets were about real disasters. The data can be found at the NLP with disaster tweets Kaggle challenge 
 https://www.kaggle.com/competitions/nlp-getting-started/overview 
 
 ## Overview
