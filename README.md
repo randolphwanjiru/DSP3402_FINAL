@@ -2,16 +2,14 @@
 ![UTALOGO](https://github.com/randolphwanjiru/DSP3402/assets/107207718/7c99a2e5-fd3b-4572-9ec4-467c24b5030b)
 
 # Natural Language Processing with Disaster Tweets
-This challenge aimed to predict whether certain tweets were bout real disasters or not by implementing NLP techniques.
+This repository holds an attempt to apply NLP techniques to tweets to predict which tweets were about real disaters. the data can be found at the NLP with diaster challenge tweets
 https://www.kaggle.com/competitions/nlp-getting-started/overview 
 
 ## Overview
 
- I Categorized tweets into two classes which were those related to actual disasters and those that were not related 
- I then used the textual data from the tweets and used different NLP techqniques. This was a classification task where 
- different machine learning models were used to identify the tweets more accurately. 
- The best performing model was the logistic regression model that scored 0.7493834 while the Multinomial Naive Bayes model 
- scored 0.746320. when submittled into Kaggle it scored %79.558
+The objective involved categorizing tweets into two classes: those related to actual disasters and those unrelated. This task was part of a classification challenge, requiring the utilization of textual data from tweets. The goal was to accurately identify and differentiate between disaster-related and non-disaster-related tweets.
+The approach undertaken for this task encompassed the application of various Natural Language Processing (NLP) techniques. These techniques involved preprocessing and analyzing the textual content of tweets. Different machine learning models were employed in a classification setting to discern and classify tweets accurately. The models were trained and evaluated on their ability to correctly categorize tweets into the designated classes.
+Among the various models tested, the super vector machine model exhibited the highest performance, achieving an F1 score of 0.7698. Subsequently, when submitted to the Kaggle platform, the model yielded a score of 79.74%. This score represents the accuracy or predictive performance of the model compared to the ground truth data.
 
 ## Summary of Workdone
 
