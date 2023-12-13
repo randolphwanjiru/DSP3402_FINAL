@@ -25,16 +25,22 @@ Include only the sections that are relevant an appropriate.
 
 #### Preprocessing / Clean up
 
-utilized  a TF-IDF Vectorizer (TfidfVectorizer) from sci-kit-learn. The TF-IDF Vectorizer, used in the code, transformed textual data by assigning numerical values to words based on their significance in individual tweets and across the dataset. This allowed the machine learning models to understand and classify tweets regarding real disasters more effectively by focusing on relevant terms and ignoring common words. The vectorizer's parameter was set to 5000, limiting the vocabulary size to prioritize the most important words, and enhancing the models' classification accuracy by considering the contextual relevance of specific terms within the tweets.
+Utilized  a TF-IDF Vectorizer (TfidfVectorizer) from sci-kit-learn. The TF-IDF Vectorizer, used in the code, transformed textual data by assigning numerical values to words based on their significance in individual tweets and across the dataset. This allowed the machine learning models to understand and classify tweets regarding real disasters more effectively by focusing on relevant terms and ignoring common words. The vectorizer's parameter was set to 5000, limiting the vocabulary size to prioritize the most important words, and enhancing the models' classification accuracy by considering the contextual relevance of specific terms within the tweets.
 
 #### Data Visualization
-
-Show a few visualization of the data and say a few words about what you see.
-
+![download](https://github.com/randolphwanjiru/DSP3402_FINAL/assets/107207718/80b5ffd5-28df-4929-9c06-bf51c35d3341)
+57 percent of the data set consists of non-diaster tweets. 43% percents accounts for disaster-related tweeets   
+![download](https://github.com/randolphwanjiru/DSP3402_FINAL/assets/107207718/a49654c3-58b1-4e82-9627-f48ad3a733ce)
+The SVM machine model is the best-performing model based on the metrics 
 ### Problem Formulation
 
-* Define:
-  * Input / Output
+Inputs:  
+* Training Data: Contains columns like 'id', 'keyword', 'location', 'text', 'target' loaded from 'train.csv'.
+* Testing Data: Structured similarly to training data but lacks the 'target' column, loaded from 'test.csv'.
+Outputs:  
+* Performance Metrics: Includes F1 Score, Accuracy, Precision, and Recall for each model on the validation set.
+* Best Model Information: Displays details of the highest-performing model (name, F1 Score, Accuracy, Precision, Recall).
+
   * Models
     * Describe the different models you tried and why.
   * Loss, Optimizer, other Hyperparameters.
@@ -65,12 +71,21 @@ Logistic Regression slightly outperformed Multinomial Naive Bayes based on the F
 * What are some other studies that can be done starting from here.
 
 ## How to reproduce results
+To reproduce the results or utilize the trained model, follow these steps:  
+Environment Setup:  
 
-* In this section, provide instructions at least one of the following:
-   * Reproduce your results fully, including training.
-   * Apply this package to other data. For example, how to use the model you trained.
-   * Use this package to perform their own study.
-* Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
+* Ensure Python and required libraries (e.g., pandas, scikit-learn) are installed in your environment. Use virtual environments like Anaconda or pip to manage dependencies.
+Data Loading and Preprocessing:
+
+* Load the dataset ('train.csv' and 'test.csv') into your working directory using pandas.
+Split the data into features ('text') and target labels ('target').
+Training the Support Vector Machine (SVM) Model:
+
+* Use scikit-learn's SVM implementation ('sklearn.svm.SVC') and preprocess text data using TF-IDF Vectorization (as previously implemented).
+Train the SVM model on the training data.
+Model Evaluation:
+
+Evaluate the model's performance using metrics like F1 Score, Accuracy, Precision, and Recall on a validation set.
 
 ### Overview of files in repository
 
@@ -101,9 +116,17 @@ Logistic Regression slightly outperformed Multinomial Naive Bayes based on the F
 * Describe how to train the model
 
 #### Performance Evaluation
+* Data Preparation: Loads and splits the dataset into training and validation sets.  
 
-* Describe how to run the performance evaluation.
+* Model Definition: Initializes models like Naive Bayes, Logistic Regression, SVM, Random Forest, MLPClassifier.  
 
+* Training and Evaluation Loop: Trains each model on the training set and evaluates on the validation set using F1 Score, Accuracy, Precision, and Recall.  
+
+* Best Model Selection: Identifies the model with the highest F1 Score as the best-performing one.  
+
+* Performance Metrics Display: Generates a table displaying performance metrics for all models and prints details of the best model.  
+
+* Prediction and Submission: Uses the best model to predict on the test data and creates a submission CSV file.  
 
 ## Citations
 
