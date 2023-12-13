@@ -88,7 +88,9 @@ The code performs an extensive evaluation of various machine learning models for
 To reproduce the results or utilize the trained model, follow these steps:  
 Environment Setup:  
 
-* Ensure Python and required libraries (e.g., pandas, scikit-learn) are installed in your environment. Use virtual environments like Anaconda or pip to manage dependencies.
+* Ensure Python and required libraries ( pandas and scikit-learn) are installed in your environment.
+
+  
 Data Loading and Preprocessing:
 
 * Load the dataset ('train.csv' and 'test.csv') into your working directory using pandas.
