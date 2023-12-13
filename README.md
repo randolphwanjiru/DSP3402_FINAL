@@ -80,13 +80,10 @@ Model Performance Metrics:
 ![perfomance metrics](https://github.com/randolphwanjiru/DSP3402_FINAL/assets/107207718/4a46b78c-dcc3-4f2f-9f3d-2a7ddb4fb28a)
 
 ### Conclusions
-Logistic Regression slightly outperformed Multinomial Naive Bayes based on the F1 Score
+The code performs an extensive evaluation of various machine learning models for tweet classification. Among these models, the Support Vector Machine (SVM) emerges as the top performer, showcasing robust metrics with an F1 Score of 0.770, an accuracy of 0.815, precision of 0.822, and recall of 0.724. This comprehensive analysis demonstrates SVM's capability in accurately identifying disaster-related content within tweets, making it a viable choice for further study or real-world applications in similar contexts.
 
 ### Future Work
-
-* What would be the next thing that you would try.
-* What are some other studies that can be done starting from here.
-
+* Hyperparameter Tuning: Explore further optimization of the best-performing model (SVM) by fine-tuning its hyperparameters. This process could involve adjusting parameters like the regularization term or kernel types to potentially enhance performance.
 ## How to reproduce results
 To reproduce the results or utilize the trained model, follow these steps:  
 Environment Setup:  
@@ -106,6 +103,19 @@ Evaluate the model's performance using metrics like F1 Score, Accuracy, Precisio
 
 
 ### Software Setup
+
+* pandas: For handling data frames and data manipulation.  
+
+* Install via pip: pip install pandas  
+scikit-learn: Essential for machine learning models and evaluation metrics.  
+
+* Install via pip: pip install scikit-learn  
+nltk: Used for natural language processing tasks such as tokenization and lemmatization.  
+
+* Install via pip: pip install nltk  
+matplotlib: For data visualization purposes, particularly in plotting charts.  
+
+Install via pip: pip install matplotlib
 
 ### Data
 
