@@ -98,7 +98,8 @@ Training the Support Vector Machine (SVM) Model:
 
 * Use scikit-learn's SVM implementation ('sklearn.svm.SVC') and preprocess text data using TF-IDF Vectorization (as previously implemented).
 Train the SVM model on the training data.
-Model Evaluation:
+
+Model Evaluation:  
 
 Evaluate the model's performance using metrics like F1 Score, Accuracy, Precision, and Recall on a validation set.
 
