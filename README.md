@@ -59,14 +59,21 @@ Utilized as an ensemble method capable of managing complex data relationships an
 * MLPClassifier (Multi-layer Perceptron):  
 A flexible neural network capable of learning intricate patterns in data.
 ### Training
+* Duration: The training process spanned approximately 109.16 seconds.
+  
+Model Performance Metrics:
 
-                                  * Describe the training:
-                               * How you trained: software and hardware.
-                       * How did training take.
-                        * Training curves (loss vs epoch for test/train).
-                            * How did you decide to stop training.
-                                  * Any difficulties? How did you resolve them?
+* F1 Score: MultinomialNB: 0.746, LogisticRegression: 0.749, SVM: 0.770, RandomForest: 0.705, MLPClassifier: 0.697.  
+* Accuracy: Ranged between 0.738 and 0.816 across various models.  
+* Precision: Attained the highest value of 0.822 with the SupportVectorMachine (SVM).  
+* Recall: Varied within the range of 0.605 to 0.724 across models.  
+* Best Model: The SupportVectorMachine model obtained the highest F1 Score of 0.770, achieving an accuracy of 0.815, precision of 0.822, and recall of 0.724.
 
+
+
+
+
+                              
 ### Performance Comparison
 
 * Clearly define the key performance metric(s). Multonmoal Naive Bayes F1 Score: 0.7463
