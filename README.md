@@ -29,7 +29,7 @@ Utilized  a TF-IDF Vectorizer (TfidfVectorizer) from sci-kit-learn. The TF-IDF V
 #### Data Visualization
 ![download](https://github.com/randolphwanjiru/DSP3402_FINAL/assets/107207718/80b5ffd5-28df-4929-9c06-bf51c35d3341)  
 57 percent of the data set consists of non-diaster tweets. 43% percents accounts for disaster-related tweeets   
-![download](https://github.com/randolphwanjiru/DSP3402_FINAL/assets/107207718/a49654c3-58b1-4e82-9627-f48ad3a733ce)
+![download](https://github.com/randolphwanjiru/DSP3402_FINAL/assets/107207718/a49654c3-58b1-4e82-9627-f48ad3a733ce)  
 The SVM machine model is the best-performing model based on the metrics 
 ### Problem Formulation
 
