@@ -91,7 +91,7 @@ Environment Setup:
 * Ensure Python and required libraries ( pandas and scikit-learn) are installed in your environment.
 
   
-Data Loading and Preprocessing:
+Data Loading and Preprocessing:  
 
 * Load the dataset ('train.csv' and 'test.csv') into your working directory using pandas.
 Split the data into features ('text') and target labels ('target').
