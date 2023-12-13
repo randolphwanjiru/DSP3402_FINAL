@@ -2,7 +2,7 @@
 ![UTALOGO](https://github.com/randolphwanjiru/DSP3402/assets/107207718/7c99a2e5-fd3b-4572-9ec4-467c24b5030b)
 
 # Natural Language Processing with Disaster Tweets
-This repository holds an attempt to apply NLP techniques to tweets to predict which tweets were about real disaters. the data can be found at the NLP with diaster challenge tweets
+This repository holds an attempt to apply NLP techniques to tweets to predict which tweets were about real disasters. The data can be found at the NLP with disaster tweets challenge 
 https://www.kaggle.com/competitions/nlp-getting-started/overview 
 
 ## Overview
@@ -11,7 +11,7 @@ The objective involved categorizing tweets into two classes: those related to ac
 The approach undertaken for this task encompassed the application of various Natural Language Processing (NLP) techniques. These techniques involved preprocessing and analyzing the textual content of tweets. Different machine learning models were employed in a classification setting to discern and classify tweets accurately. The models were trained and evaluated on their ability to correctly categorize tweets into the designated classes.
 Among the various models tested, the super vector machine model exhibited the highest performance, achieving an F1 score of 0.7698. Subsequently, when submitted to the Kaggle platform, the model yielded a score of 79.74%. This score represents the accuracy or predictive performance of the model compared to the ground truth data.
 
-## Summary of Workdone
+## Summary of Work done
 
 Include only the sections that are relevant an appropriate.
 
@@ -19,10 +19,9 @@ Include only the sections that are relevant an appropriate.
 
 * Data:
   * Type: Textual Data
-    * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
-    * Input: CSV file of features, output: signal/background flag in 1st column.
   * Size: 1.43MB
-  * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
+  * train data instances: 7613
+  * test data instances: 3263
 
 #### Preprocessing / Clean up
 
@@ -92,17 +91,6 @@ Logistic Regression slightly outperformed Multinomial Naive Bayes based on the F
 
 ### Software Setup
 
-Scikit-learn  
-
-numpy  
-
-matplotlib  
-
-seaborn  
-
-nltk (natural language processing tool kit)  
-
-spaCy
 ### Data
 
 * Point to where they can download the data.
