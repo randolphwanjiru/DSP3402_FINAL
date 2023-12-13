@@ -18,14 +18,14 @@ Include only the sections that are relevant an appropriate.
 ### Data
 
 * Data:
-  * Type: Textual Data
+  * Type: Textual Data, CSV file
   * Size: 1.43MB
   * train data instances: 7613
   * test data instances: 3263
 
 #### Preprocessing / Clean up
 
-* Describe any manipulations you performed to the data.
+utilized  a TF-IDF Vectorizer (TfidfVectorizer) from sci-kit-learn. The TF-IDF Vectorizer, used in the code, transformed textual data by assigning numerical values to words based on their significance in individual tweets and across the dataset. This allowed the machine learning models to understand and classify tweets regarding real disasters more effectively by focusing on relevant terms and ignoring common words. The vectorizer's parameter was set to 5000, limiting the vocabulary size to prioritize the most important words, and enhancing the models' classification accuracy by considering the contextual relevance of specific terms within the tweets.
 
 #### Data Visualization
 
