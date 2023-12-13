@@ -76,11 +76,8 @@ Model Performance Metrics:
                               
 ### Performance Comparison
 
-* Clearly define the key performance metric(s). Multonmoal Naive Bayes F1 Score: 0.7463
-* Show/compare results in one table.            Logistic regression score: 0.7494
-* ![image](https://github.com/randolphwanjiru/DSP3402_FINAL/assets/107207718/abcfa793-e1f8-44b7-bfb8-d9f366aa7a0b)
 
-* Show one (or few) visualization(s) of results, for example ROC curves.
+![perfomance metrics](https://github.com/randolphwanjiru/DSP3402_FINAL/assets/107207718/4a46b78c-dcc3-4f2f-9f3d-2a7ddb4fb28a)
 
 ### Conclusions
 Logistic Regression slightly outperformed Multinomial Naive Bayes based on the F1 Score
