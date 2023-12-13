@@ -13,7 +13,6 @@ Among the various models tested, the super vector machine model exhibited the hi
 
 ## Summary of Work done
 
-Include only the sections that are relevant an appropriate.
 
 ### Data
 
@@ -28,7 +27,7 @@ Include only the sections that are relevant an appropriate.
 Utilized  a TF-IDF Vectorizer (TfidfVectorizer) from sci-kit-learn. The TF-IDF Vectorizer, used in the code, transformed textual data by assigning numerical values to words based on their significance in individual tweets and across the dataset. This allowed the machine learning models to understand and classify tweets regarding real disasters more effectively by focusing on relevant terms and ignoring common words. The vectorizer's parameter was set to 5000, limiting the vocabulary size to prioritize the most important words, and enhancing the models' classification accuracy by considering the contextual relevance of specific terms within the tweets.
 
 #### Data Visualization
-![download](https://github.com/randolphwanjiru/DSP3402_FINAL/assets/107207718/80b5ffd5-28df-4929-9c06-bf51c35d3341)
+![download](https://github.com/randolphwanjiru/DSP3402_FINAL/assets/107207718/80b5ffd5-28df-4929-9c06-bf51c35d3341)  
 57 percent of the data set consists of non-diaster tweets. 43% percents accounts for disaster-related tweeets   
 ![download](https://github.com/randolphwanjiru/DSP3402_FINAL/assets/107207718/a49654c3-58b1-4e82-9627-f48ad3a733ce)
 The SVM machine model is the best-performing model based on the metrics 
@@ -39,12 +38,20 @@ Inputs:
 * Testing Data: Structured similarly to training data but lacks the 'target' column, loaded from 'test.csv'.
 Outputs:  
 * Performance Metrics: Includes F1 Score, Accuracy, Precision, and Recall for each model on the validation set.
-* Best Model Information: Displays details of the highest-performing model (name, F1 Score, Accuracy, Precision, Recall).
+* Best Model Information: Displays details of the highest-performing model (name, F1 Score, Accuracy, Precision, Recall).  
 
-  * Models
-    * Describe the different models you tried and why.
-  * Loss, Optimizer, other Hyperparameters.
 
+
+* Multinomial Naive Bayes (MultinomialNB):  
+Chosen for its efficiency in handling text data and computational simplicity.
+* Logistic Regression:  
+Employed as a basic linear model for comparison and its effectiveness in binary classification.
+* Support Vector Machine (SVM):  
+Selected due to its adaptability to various data types and suitability for high-dimensional spaces.
+* Random Forest:  
+Utilized as an ensemble method capable of managing complex data relationships and minimizing overfitting.
+* MLPClassifier (Multi-layer Perceptron):  
+A flexible neural network capable of learning intricate patterns in data.
 ### Training
 
                                   * Describe the training:
