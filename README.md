@@ -104,22 +104,6 @@ Model Evaluation:
 
 Evaluate the model's performance using metrics like F1 Score, Accuracy, Precision, and Recall on a validation set.
 
-### Overview of files in repository
-
-* Describe the directory structure, if any.
-* List all relavent files and describe their role in the package.
-* An example:
-  * utils.py: various functions that are used in cleaning and visualizing data.
-  * preprocess.ipynb: Takes input data in CSV and writes out data frame after cleanup.
-  * visualization.ipynb: Creates various visualizations of the data.
-  * models.py: Contains functions that build the various models.
-  * training-model-1.ipynb: Trains the first model and saves model during training.
-  * training-model-2.ipynb: Trains the second model and saves model during training.
-  * training-model-3.ipynb: Trains the third model and saves model during training.
-  * performance.ipynb: loads multiple trained models and compares results.
-  * inference.ipynb: loads a trained model and applies it to test data to create kaggle submission.
-
-* Note that all of these notebooks should contain enough text for someone to understand what is happening.
 
 ### Software Setup
 
@@ -130,7 +114,18 @@ Evaluate the model's performance using metrics like F1 Score, Accuracy, Precisio
 
 ### Training
 
-* Describe how to train the model
+
+The training process in the provided code involved several steps:  
+
+* Data Loading: Loaded training and testing datasets using pandas.  
+* Data Preparation: Divided the training data into features ('text') and target labels ('target').  
+* Model Initialization: Defined several classification models like Multinomial Naive Bayes, Logistic Regression, SVM, Random Forest, and MLPClassifier.  
+* Model Training and Evaluation:  
+** Utilized scikit-learn's fit function to train each model using a TF-IDF Vectorizer for text preprocessing.  
+** Evaluated each model's performance using metrics like F1 Score, Accuracy, Precision, and Recall on the validation set.  
+** Stored and compared the performance metrics for all models.  
+* Best Model Selection: Identified the best-performing model based on the highest F1 Score.  
+* Prediction: Leveraged the best model to make predictions on the test data.  
 
 #### Performance Evaluation
 * Data Preparation: Loads and splits the dataset into training and validation sets.  
