@@ -35,7 +35,7 @@ The SVM machine model is the best-performing model based on the metrics
 
 Inputs:  
 * Training Data: Contains columns like 'id', 'keyword', 'location', 'text', 'target' loaded from 'train.csv'.
-* Testing Data: Structured similarly to training data but lacks the 'target' column, loaded from 'test.csv'.
+* Testing Data: Structured similarly to training data but lacks the 'target' column, loaded from 'test.csv'.  
 Outputs:  
 * Performance Metrics: Includes F1 Score, Accuracy, Precision, and Recall for each model on the validation set.
 * Best Model Information: Displays details of the highest-performing model (name, F1 Score, Accuracy, Precision, Recall).  
