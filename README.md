@@ -101,7 +101,7 @@ Train the SVM model on the training data.
 
 Model Evaluation:  
 
-* Evaluate the model's performance using metrics like F1 Score, Accuracy, Precision, and Recall on a validation set.
+* Evaluate the model's performance using metrics like F1 Score, Accuracy, Precision, and Recall.
 
 
 ### Software Setup
